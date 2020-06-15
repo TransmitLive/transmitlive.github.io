@@ -4,3 +4,35 @@
 
 layout: home
 ---
+
+### JWPlayer Plugin
+
+Released Versions
+
+| Version | Url | JWPlayer Support |
+| v1 |https://dvzojuhci13cz.cloudfront.net/v1/transmit-live-jwplayer-plugin.js| 8+ |
+
+TransmitLive's JWPLayer plugin supports SSAI watermarks for enhanced ad delivery and metrics.
+
+Below is an example of how to enable the plugin for your JWPlayer:
+
+```js
+jwplayer('my-player').setup({
+  playlist: [{
+    file: myVideo,
+  }],
+  plugins: {
+    'https://dvzojuhci13cz.cloudfront.net/v1/transmit-live-jwplayer-plugin.js': {
+      debug: true,
+    }
+  },
+});
+```
+
+Plugin Options
+
+| Option | Description |
+| --- | ----------- |
+| debug | show debug output in browser console |
+
+Currently JWPlayer version 8+ is supported.
