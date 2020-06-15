@@ -1,0 +1,16 @@
+current directory: /Users/edan/transmitlive/transmitlive.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/edan/.rbenv/versions/2.7.0/bin/ruby -I /Users/edan/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200615-75667-791w25.rb extconf.rb
+creating Makefile
+
+current directory: /Users/edan/transmitlive/transmitlive.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/edan/transmitlive/transmitlive.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/edan/transmitlive/transmitlive.github.io/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20200615-75667-1bf6c77
