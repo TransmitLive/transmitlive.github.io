@@ -9,8 +9,8 @@ layout: home
 
 Released Versions
 
-| Version | Url | JWPlayer Support |
-| v1 |https://dvzojuhci13cz.cloudfront.net/v1/transmit-live-jwplayer-plugin.js| 8+ |
+| Version | Url | JWPlayer Support |  |
+| v1 |https://dvzojuhci13cz.cloudfront.net/v1/transmit-live-jwplayer-plugin.js| 8+ | [Live Demo](https://dvzojuhci13cz.cloudfront.net/demo/index.html){:target="_blank"} |
 
 TransmitLive's JWPLayer plugin supports SSAI watermarks for enhanced ad delivery and metrics.
 
