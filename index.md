@@ -24,6 +24,7 @@ jwplayer('my-player').setup({
   plugins: {
     'https://code.transmit.live/v1/transmit-live-jwplayer-plugin.min.js': {
       debug: true,
+      hook: myFunction,
     }
   },
 });
@@ -31,8 +32,9 @@ jwplayer('my-player').setup({
 
 Plugin Options
 
-| Option | Description |
-| --- | ----------- |
-| debug | show debug output in browser console |
+| Option | Description | Type |
+| --- | ----------- | --- |
+| debug | show debug output in browser console | boolean |
+| hook | user provided function on page for plugin to send events | function |
 
 Currently JWPlayer version 8+ is supported.
