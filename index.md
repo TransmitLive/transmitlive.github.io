@@ -14,8 +14,8 @@ Released Versions
 
 | Version | Type | Url | JWPlayer Support |  |
 |---|---|---|---| -- |
-| v1 | [Plugin](##Plugin) | **minified**<br>https://code.transmit.live/v1/transmit-live-jwplayer-plugin.min.js<br><br> **full**<br>https://code.transmit.live/v1/transmit-live-jwplayer-plugin.js| 8+ | [Live Demo](https://code.transmit.live/demo/index.html) |
-| v1 | [Embed](##Embed) | **minified**<br>https://code.transmit.live/v1/transmit-live-jwplayer-embed.min.js<br><br> **full**<br>https://code.transmit.live/v1/transmit-live-jwplayer-embed.js| 8+ | [Live Demo](https://code.transmit.live/demo/jw-embed.html) |
+| v1 | [Plugin](#Plugin) | **minified**<br>https://code.transmit.live/v1/transmit-live-jwplayer-plugin.min.js<br><br> **full**<br>https://code.transmit.live/v1/transmit-live-jwplayer-plugin.js| 8+ | [Live Demo](https://code.transmit.live/demo/index.html) |
+| v1 | [Embed](#Embed) | **minified**<br>https://code.transmit.live/v1/transmit-live-jwplayer-embed.min.js<br><br> **full**<br>https://code.transmit.live/v1/transmit-live-jwplayer-embed.js| 8+ | [Live Demo](https://code.transmit.live/demo/jw-embed.html) |
 
 
 There are two variants of the plugin.
@@ -32,10 +32,7 @@ jwplayer('my-player').setup({
     file: myVideo,
   }],
   plugins: {
-    'https://code.transmit.live/v1/transmit-live-jwplayer-plugin.min.js': {
-      debug: true,
-      hook: myFunction,
-    }
+    'https://code.transmit.live/v1/transmit-live-jwplayer-plugin.min.js': {},
   },
 });
 ```
@@ -49,6 +46,8 @@ Plugin Options
 
 ## Embed
 **Embed** is used alongside a content specific embed tag.
+
+The script tag must follow directly after the jwplayer embed script tag as shown below:
 
 ```html
     <div class="player-container">
