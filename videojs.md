@@ -13,7 +13,7 @@ Released Versions
 
 | Version | Url | Video.js Support ||
 |---|---|---| -- |
-| v1.2.0 | https://code.transmit.live/videojs/transmit-live-videojs-plugin.min.js| 7+ |[Live Demo](https://code.transmit.live/demo/videojs.html) |
+| v1.2.1 | https://code.transmit.live/videojs/transmit-live-videojs-plugin.min.js| 7+ |[Live Demo](https://code.transmit.live/demo/videojs.html) |
 
 ## Setup
 
