@@ -13,8 +13,8 @@ Released Versions
 
 | Version | Type | Url | JWPlayer Support |  |
 |---|---|---|---| -- |
-| v1.3.1 | [Plugin](#Plugin) | https://code.transmit.live/jwplayer/transmit-live-jwplayer-plugin.min.js| 8+ | [Live Demo](https://code.transmit.live/demo/jwplayer.html) |
-| v1.3.1 | [Embed](#Embed) | https://code.transmit.live/jwplayer/transmit-live-jwplayer-embed.min.js| 8+ | [Live Demo](https://code.transmit.live/demo/jw-embed.html) |
+| v2.0.0 | [Plugin](#Plugin) | https://code.transmit.live/jwplayer/transmit-live-jwplayer-plugin.min.js| 8+ | [Live Demo](https://code.transmit.live/demo/jwplayer.html) |
+| v2.0.0 | [Embed](#Embed) | https://code.transmit.live/jwplayer/transmit-live-jwplayer-embed.min.js| 8+ | [Live Demo](https://code.transmit.live/demo/jw-embed.html) |
 
 
 There are two variants of the plugin.
